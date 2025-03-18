@@ -1,0 +1,60 @@
+
+/* .manibody
+{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    height: 250px;
+}
+.manibodyOuter
+{
+    width: 100%;
+    display: flex;
+}
+.maniBodyInner
+{
+    flex-basis: 16%;
+    margin: 1%;
+    border: 1px solid red
+} */
+
+.cBox
+{
+   width:1650px;
+   padding: 0 px;
+   /* height:278px; */
+  border: 1px solid red;
+}
+.m_cBoxColumn
+
+{
+    background-color: aqua;
+    border: 1px solid blue; 
+    /* height: 277px; */
+}
+.m_cControl
+{
+    width: 4%;
+    height: 9%;
+    border-radius: 50%;
+    opacity: 1 !important;
+    background-color: orange;
+    top: 16%;
+  
+}
+.carousel-control-prev
+{
+  left:6%
+}
+.carousel-control-next
+{
+    right: 6%;
+}
+.m_cControl i{
+    text-align: center;
+    /* padding-left: 2px; */
+    color: #212121 !important;
+}

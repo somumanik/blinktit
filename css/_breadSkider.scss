@@ -1,0 +1,49 @@
+.m_Img15Second
+{
+    width: 15px !important;
+}
+.m_Img15Second img{
+    width: 100%;
+}
+
+
+
+.cBox
+{
+   width:1650px;
+   padding: 0 px;
+   position: relative;
+   /* height:278px; */
+//   border: 1px solid red;
+}
+.m_cBoxColumn
+
+{
+    // background-color: aqua;
+    // border: 1px solid blue; 
+    /* height: 277px; */
+}
+.m_cControl
+{
+    width: 4%;
+    height: 14%;
+    border-radius: 50%;
+    opacity: 1 !important;
+    background-color: white ;
+    box-shadow: 0px 0px 5px 0px #212121;
+    top: 45%;
+  
+}
+.carousel-control-prev
+{
+  left:-1%
+}
+.carousel-control-next
+{
+    right:-1%;
+}
+.m_cControl i{
+    text-align: center;
+    /* padding-left: 2px; */
+    color: #212121 !important;
+}

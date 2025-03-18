@@ -1,0 +1,2821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everything delivered in minutes | Blinkit</title>
+  <link rel="icon" href="/img/app_logo.svg">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <!-- Gsap Start -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+  <header class="container-fluid m_container-fluid ">
+    <div class="m_header">
+      <div class="m_header_left">
+
+        <img src="/Img/logo.svg" class="text-center d-flex justify-content-center align-items-center" alt="">
+
+      </div>
+      <div class="m_header_right">
+        <div class="m_header_right_left">
+          <div class="m_header_right_address text-center justify-content-end fs-6 px-2 py-2">
+            <div>
+              <p class="mb-0 fs-5 fw-bold">Delivery in 12 minutes</p>
+              <p class="mb-0 ">B36, Panki Site Number &nbsp;<i class="fa-solid fa-chevron-down"></i></p>
+            </div>
+          </div>
+          <div class="m_header_right_search ">
+            <form class=" pt-2 pb-2 m_form ">
+              <button class=" bg-transparent m_buttonMagnifyre"><i
+                  class="fa-solid fa-magnifying-glass text-center"></i></button>
+              <input type="search" placeholder=' search "milk"'>
+            </form>
+          </div>
+        </div>
+        <div class="m_header_right_right">
+          <div><button class="btn bg-transparent fs-4 m_login">Login</button></div>
+          <div class="btn btn-success"><i class="fa-solid fa-cart-shopping"></i><button
+              class="bg-transparent border-0 text-white">My Cart</button></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container-fluid pt-2">
+    <!-- Login Form -->
+    <div class="m_Outlay m_overLayClose"></div>
+    <div class=" m_loginForm m_loginFormClose">
+
+      <form class="row d-flex">
+        <div class="col-lg-12 text-center pt-4">
+          <i class="fa-solid fa-arrow-left text-center"></i>
+          <img src="/Img/app_logo.svg" alt="">
+        </div>
+        <div class="col-lg-10 pt-4 d-flex justify-content-center">
+          <div class="formImage">
+            <h4>India's last minute app</h4>
+          </div>
+        </div>
+        <div class="col-lg-12 d-flex justify-content-center">
+          <div class="formImage1">
+            <p>Log in or Sign up</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="col pb-3">
+            <label for="inputPassword2" class="visually-hidden">Enter Mobile Number</label>
+            <input type="password" class="form-control" id="inputPassword2" placeholder="Enter Mobile Number">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="col">
+            <button type="submit" class="btn btn-secondary mb-3 w-100 pt-2 pb-2">Continue</button>
+          </div>
+        </div>
+        <div class="col-lg-12 text-center">
+          <p>By continuing, you agree to our Terms of service & Privacy policy</p>
+        </div>
+      </form>
+    </div>
+
+
+
+    <!-- First Banner -->
+    <div class="container my_bannerFirst">
+      <img src="/Img/mainBanner/1.jpg" class="img-fluid w-100 p-0 m-0" alt="">
+    </div>
+    <!-- Second Banner -->
+    <div class="container pt-4 my_bannerFirst1 ">
+      <div class="row" id="m_gsapImg">
+        <div class="col-lg-3 mx-3">
+          <img src="/Img/seconBanner/1.jpg" class=" m_ImgSecond" alt="">
+        </div>
+        <div class="col-lg-3 mx-4">
+          <img src="/Img/seconBanner/2.jpg" class=" m_ImgSecond" alt="">
+        </div>
+        <div class="col-lg-3 mx-4">
+          <img src="/Img/seconBanner/3.jpg" class=" m_ImgSecond" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- Third Images -->
+    <div class="container">
+      <div class="row pt-4">
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-1_10.jpeg" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-2_10.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-3_9.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-4_9.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-5_4.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-6_5.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-7_3.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-8_4.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-9_3.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-10.png" class="img-fluid w-200" alt=""></div>
+      </div>
+      <div class="row  pt-4">
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-11.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-12.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-13.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-14.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-15.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-16.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-17.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-18.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-19.png" class="img-fluid w-200" alt=""></div>
+        <div class="col m_stacticImg "><img src="/Img/staticImg/Slice-20.png" class="img-fluid w-200" alt=""></div>
+      </div>
+    </div>
+
+
+    <!-- Fourth Images  -->
+    <div class="container pt-4 pb-3">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-between">
+          <h3>Dairy, Bread & Eggs</h3>
+          <button class="btn btn-success bg-body border-0 text-success fs-4">see all</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container m_containerSlider pt-0">
+      <!-- Testing Owl Carousel -->
+      <!-- <div class="owl-carousel owl-theme ">
+      
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="card">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-start text-center">
+                <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                <h6 class="card-title">&nbsp;8 Mins</h6>
+              </div>
+              <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+              <p class="fs-6 fw-normal text-secondary">500 ml</p>
+              <div class="d-flex justify-content-between text-center">
+                <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+
+      <!-- Testing Bootstrap Carousel -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/2.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/3.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/4.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/5.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secpnd Sliding -->
+          <div class="carousel-item ">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/8.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/9.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/11.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/12.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- third Sliding -->
+          <div class="carousel-item ">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/11.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/12.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/13.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/14.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/15.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/15.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <!-- Blank Images -->
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- End Sliding -->
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"> -->
+        <a href="#" class="carousel-control-prev m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"><i class="fa fa-chevron-left"></i></a>
+
+        <a href="" class="carousel-control-next m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"><i class="fa fa-chevron-right"></i></a>
+
+      </div>
+    </div>
+
+    <!-- Fifth Images -->
+
+    <div class="container pt-5 pb-4">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-between">
+          <h3>Rolling paper & tobacco</h3>
+          <button class="btn btn-success bg-body border-0 text-success fs-4">see all</button>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-0">
+      <!-- Testing BoostStrap Carousel -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/2.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/3.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/4.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/5.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secpnd Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/8.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/9.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/11.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"> -->
+        <a href="#" class="carousel-control-prev m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"><i class="fa fa-chevron-left"></i></a>
+
+
+
+        <a href="" class="carousel-control-next m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"><i class="fa fa-chevron-right"></i></a>
+
+
+      </div>
+
+    </div>
+
+    <!-- Sixith Images -->
+
+    <div class="container pt-5 pb-4">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-between">
+          <h3>Snacks & Munchies</h3>
+          <button class="btn btn-success bg-body border-0 text-success fs-4">see all</button>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-0">
+
+      <!-- Testing BoostStrap Carousel -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/2.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/3.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/4.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/5.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secpnd Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/8.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/9.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/11.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"> -->
+        <a href="#" class="carousel-control-prev m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"><i class="fa fa-chevron-left"></i></a>
+
+
+
+        <a href="" class="carousel-control-next m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"><i class="fa fa-chevron-right"></i></a>
+
+
+      </div>
+    </div>
+
+    <!-- Seventh Images -->
+    <div class="container pt-5 pb-4">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-between">
+          <h3>Hookah</h3>
+          <button class="btn btn-success bg-body border-0 text-success fs-4">see all</button>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-0">
+
+      <!-- Testing BoostStrap Carousel -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/2.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/3.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/4.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/5.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secpnd Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/8.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/9.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/11.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"> -->
+        <a href="#" class="carousel-control-prev m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"><i class="fa fa-chevron-left"></i></a>
+
+
+
+        <a href="" class="carousel-control-next m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"><i class="fa fa-chevron-right"></i></a>
+
+
+      </div>
+
+    </div>
+
+    <!-- Eight Images -->
+    <div class="container pt-5 pb-4">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-between">
+          <h3>Mouth freshners</h3>
+          <button class="btn btn-success bg-body border-0 text-success fs-4">see all</button>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-0">
+
+      <!-- Testing BoostStrap Carousel -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/2.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/3.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/4.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/5.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secpnd Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/8.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/9.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/11.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"> -->
+        <a href="#" class="carousel-control-prev m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"><i class="fa fa-chevron-left"></i></a>
+
+
+
+        <a href="" class="carousel-control-next m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"><i class="fa fa-chevron-right"></i></a>
+
+
+      </div>
+
+    </div>
+
+    <!-- Nine Images -->
+
+    <div class="container pt-5 pb-4">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-between">
+          <h3>Cold Drinks & Juices</h3>
+          <button class="btn btn-success bg-body border-0 text-success fs-4">see all</button>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-0">
+
+      <!-- Testing BoostStrap Carousel -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/2.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/3.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/4.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/5.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secpnd Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/8.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/9.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/11.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"> -->
+        <a href="#" class="carousel-control-prev m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"><i class="fa fa-chevron-left"></i></a>
+
+
+
+        <a href="" class="carousel-control-next m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"><i class="fa fa-chevron-right"></i></a>
+
+
+      </div>
+
+    </div>
+
+    <!-- Tenth Images -->
+
+
+    <div class="container pt-5 pb-4">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-between">
+          <h3>Candies & Gums</h3>
+          <button class="btn btn-success bg-body border-0 text-success fs-4">see all</button>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-0 pb-3">
+
+      <!-- Testing BoostStrap Carousel -->
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/1.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/2.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/3.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/4.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/5.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secpnd Sliding -->
+          <div class="carousel-item active">
+            <div class="cBox">
+              <div class="row">
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/6.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/7.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/8.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/9.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/11.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m_cBoxColumn">
+                  <div class="card">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img src="/Img/dairy_Breads/10.jpg" class="card-img-top img-fluid w-50 " alt="...">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-start text-center">
+                        <img src="/Img/15-mins.png" style="width:1.2em; height:1.2em;" alt="">
+                        <h6 class="card-title">&nbsp;8 Mins</h6>
+                      </div>
+                      <p class="card-text">Amul Gold Full Cream Fresh Milk</p>
+                      <p class="fs-6 fw-normal text-secondary">500 ml</p>
+                      <div class="d-flex justify-content-between text-center">
+                        <p class="fs-6 text-center text-secondary m-1">₹34</p>
+                        <a href="#" class="btn btn-success border-1 bg-transparent text-success pe-4 ps-4">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"> -->
+        <a href="#" class="carousel-control-prev m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"><i class="fa fa-chevron-left"></i></a>
+
+
+
+        <a href="" class="carousel-control-next m_cControl" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"><i class="fa fa-chevron-right"></i></a>
+
+
+      </div>
+
+    </div>
+  </section>
+  <footer class="container pt-5 ">
+    <div class="row border-1">
+      <div class="col-lg-4">
+        <h4 class="mt-2">Useful Links</h4>
+        <div class="row pt-3">
+          <div class="col-lg-4">
+            <ul class="ps-0 text-secondary">
+              <li>About</li>
+              <li>Careers</li>
+              <li>Blog</li>
+              <li>Press</li>
+              <li>Lead</li>
+              <li>Value</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="ps-0 text-secondary">
+              <li>Privacy</li>
+              <li>Terms</li>
+              <li>FAQs</li>
+              <li>Security</li>
+              <li>Mobile</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="ps-0 text-secondary">
+              <li>Terms</li>
+              <li>FAQs</li>
+              <li>Security</li>
+              <li>Mobile</li>
+              <li>Contact</li>
+              <li>Partner</li>
+              <li>Franchise</li>
+              <li>Seller</li>
+              <li>Warehouse</li>
+              <li>Deliver</li>
+              <li>Resources</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8 px-5">
+        <div class="d-flex">
+          <h4 class="mt-2 pe-4">Categories</h4>
+          <button class="btn btn-success bg-body border-0 text-success fs-5 pe-1 ps-1">see all</button>
+        </div>
+        <div class="row pt-4">
+          <div class="col-lg-4">
+            <ul class="ps-0 text-secondary">
+              <li>Vegetables & Fruits</li>
+              <li>Cold Drinks & Juices</li>
+              <li>Bakery & Biscuits</li>
+              <li>Dry Fruits, Masala & Oil</li>
+              <li>Paan Corner</li>
+              <li>Pharma & Wellness</li>
+              <li>Ice Creams & Frozen Desserts</li>
+              <li>Beauty & Cosmetics</li>
+              <li>Stationery Needs</li>
+              <li>Print Store</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="ps-0 text-secondary">
+              <li>Dairy & Breakfast</li>
+              <li>Instant & Frozen Food</li>
+              <li>Sweet Tooth</li>
+              <li>Sauces & Spreads</li>
+              <li>Organic & Premium</li>
+              <li>Cleaning Essentials</li>
+              <li>Personal Care</li>
+              <li>Fashion & Accessories</li>
+              <li>CoBooksntact</li>
+              <li>E-Gift Cards</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="ps-0 text-secondary">
+              <li>Munchies</li>
+              <li>Tea, Coffee & Health Drinks</li>
+              <li>Atta, Rice & Dal</li>
+              <li>Chicken, Meat & Fish</li>
+              <li>Baby Care</li>
+              <li>Home & Office</li>
+              <li>Pet Care</li>
+              <li>Electronics & Electricals</li>
+              <li>Toys & Games</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pb-4 pt-5">
+      <div class="col-lg-4 bg-body-secondary text-end">© Blink Commerce Private Limited, 2016-2025</div>
+      <div class="col-lg-8 bg-body-tertiary">
+        <div class="row">
+          <div class="col-lg-2 text-end"> Download App</div>
+          <div class="col-lg-3 d-flex gap-2">
+            <img src="/Img/socialicon/8ed033800ea38f24c4f0.png" class="w-50" alt="">
+            <img src="/Img/socialicon/d61019073b700ca49d22.png" class="w-50" alt="">
+          </div>
+          <div class="col-lg-6 d-flex justify-content-between me-5">
+            <div class="row">
+              <div class="col-lg-12 d-flex justify-content-center gap-5">
+                <img src="/Img/socialicon/download (1).svg" alt="">
+                <img src="/Img/socialicon/download (2).svg" alt="">
+                <img src="/Img/socialicon/download (3).svg" alt="">
+                <img src="/Img/socialicon/download (4).svg" alt="">
+                <!-- <img src="/Img/socialicon/download (5).svg" class="w-25" alt=""> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-secondary">“Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related,
+      linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business
+      operated by “Redstone Consultancy Services Private Limited”.</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="/script.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+
+</html>

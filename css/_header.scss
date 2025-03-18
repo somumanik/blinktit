@@ -1,0 +1,157 @@
+header
+{
+    width: 100%;
+    box-shadow: 0px 0px 0px 1px #ccc;
+   
+    
+}
+.m_header
+{
+    max-width: 1550px;
+    // height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid red;
+    padding: 10px 0px;
+    
+   
+}
+.m_header_left
+{
+    height: 100%;
+    flex-basis: 10%;
+    display: flex;
+   
+    // border: 1px solid blue;
+}
+
+.brdr
+{
+
+    box-shadow: 0px 0px 0px 1px #ccc;
+}
+.m_header_right
+{
+    height: 100%;
+    flex-basis: 90%;
+    display: flex;
+    // border: 1px solid orange;
+}
+.m_header_right_left
+{
+    width: 80%;
+    display: flex;
+    // border: 1px solid green;
+}
+.m_header_right_address
+{
+    width: 25%;
+    // border: 1px solid blue;
+}
+
+.m_header_right_search
+{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    // border: 1px solid red;
+}
+.m_form
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding: 10px 0px;
+}
+.m_buttonMagnifyre
+{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-right: 0;
+    cursor: none;
+    padding: 8px 0px;
+}
+.m_form> input
+{
+    width: 100%;
+    // border: none;
+    // border-radius: 5px;
+    outline: none;
+    border-left: 0;
+    padding-left: 5px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 8px 0px;
+
+}
+
+.m_header_right_right
+{
+    width: 20%;
+    // border: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+// OverLay LoginForm
+
+.m_Outlay
+{
+    position: fixed;
+    width:100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.1s;
+    // display: none;
+}
+.showOverLay
+{
+    bottom: 0%;
+}
+.m_loginForm
+
+{
+    width: 600px;
+    // height: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    position: fixed;
+    left:50%;
+    top:-50%;
+    z-index: 3;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+    
+
+}
+.showLoginForm
+{
+    top: 50%;
+}
+
+.m_loginForm form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.fa-arrow-left
+{
+  position: fixed;
+  left:8%
+}
+.formImage
+{
+    width: 50%;
+}
